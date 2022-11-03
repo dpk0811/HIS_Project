@@ -1,6 +1,9 @@
 #include <iostream>
 #include<cstring>
 
+void NeverExecuted(){
+    std::cout << "This function was never executed :)\n";
+}
 
 void display(char *values){
     char array[32];
